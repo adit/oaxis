@@ -1,0 +1,28 @@
+{
+  "name": "oaxis",
+  "version": "1.0.0",
+  "description": "AXISNet command line version",
+  "type": "module",
+  "main": "oaxis.js",
+  "scripts": {
+    "start": "node oaxis.js"
+  },
+  "keywords": [
+    "cli",
+    "axisnet"
+  ],
+  "author": "Aditya Phra",
+  "license": "MIT",
+  "bin": {
+    "oaxis": "./oaxis.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^6.2.1",
+    "console-table-printer": "^2.7.5",
+    "dayjs": "^1.9.8",
+    "dotenv": "^8.2.0",
+    "js-base64": "^3.6.0",
+    "qs": "^6.9.4"
+  }
+}
