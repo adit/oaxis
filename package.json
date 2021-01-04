@@ -1,7 +1,6 @@
 {
   "name": "oaxis",
-  "version": "1.0.0",
-  "description": "AXISNet command line version",
+  "version": "1.0.1",
   "type": "module",
   "main": "oaxis.js",
   "scripts": {
@@ -13,6 +12,11 @@
   ],
   "author": "Aditya Phra",
   "license": "MIT",
+  "description": "Unofficial AXISnet client command line app.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adit/oaxis"
+  },
   "bin": {
     "oaxis": "./oaxis.js"
   },

@@ -13,7 +13,7 @@ dotenv.config();
 program
   .name('oaxis')
   .usage('command <package id> [args...]')
-  .version('1.0.0')
+  .version('1.0.1')
   .requiredOption(
     '-a, --auth <code>',
     'authorization code',

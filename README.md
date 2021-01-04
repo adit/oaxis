@@ -1,6 +1,6 @@
 # Oaxis
 
-AXISNet command line version.
+Unofficial AXISnet client command line app.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,7 +19,7 @@ npm install -g oaxis
 oaxis command [args...] [...] -a YOUR_AUTH_CODE
 ```
 
-### List Package
+- List Package
 
 ```
 oaxis list [--active, -f | --filter <keyword>] [...]
@@ -27,19 +27,19 @@ oaxis list [--active, -f | --filter <keyword>] [...]
 
 > keywords available: all, boostr, internet, & nbo
 
-#### List active package shorthand
+- List active package shorthand
 
 ```
 oaxis active
 ```
 
-### Buy package
+- Buy package
 
 ```
 oaxis buy <package id> [-t | --type <package type>] [...]
 ```
 
-### Claim free package
+- Claim free package
 
 ```
 oaxis claim <package name | package id>
