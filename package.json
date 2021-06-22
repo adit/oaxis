@@ -1,6 +1,6 @@
 {
   "name": "oaxis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "oaxis.js",
   "scripts": {
@@ -23,10 +23,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "commander": "^6.2.1",
-    "console-table-printer": "^2.7.5",
-    "dayjs": "^1.9.8",
-    "dotenv": "^8.2.0",
-    "js-base64": "^3.6.0",
-    "qs": "^6.9.4"
+    "console-table-printer": "^2.9.0",
+    "dayjs": "^1.10.5",
+    "dotenv": "^8.6.0",
+    "qs": "^6.10.1"
   }
 }
